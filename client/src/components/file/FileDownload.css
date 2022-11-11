@@ -1,0 +1,15 @@
+.row{
+    color: black;
+    font-size: medium;
+
+}
+.div{
+    text-align: center;
+   /*  border: 1px solid black;  */
+    border-collapse: collapse;
+    width: 100%;
+}
+img{
+    width: 50px;
+    height: auto;
+}

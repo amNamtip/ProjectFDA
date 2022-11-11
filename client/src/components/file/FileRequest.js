@@ -28,7 +28,7 @@ const FileRequest = () => {
                 <div class="row">
                     <div class="col s12 m4 l8"><span class="flow-text">คำขอต่ออายุใบอนุญาตผลิตอาหาร (แบบ อ.3)</span></div>
                     <div class="col s12 m4 l2"><span class="flow-text"></span></div>
-                    <div class="col s12 m4 l2"><Link>PDF</Link></div>
+                    <div class="col s12 m4 l2"><i class="material-icons left ">cloud</i><Link>PDF</Link></div>
                 </div>
             </div>
         </div>
