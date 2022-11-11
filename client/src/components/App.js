@@ -9,6 +9,7 @@ import FdaFile from "./file/FdaFile";
 import FileDownloads from "./file/FileDownloads";
 import FileReport from "./file/FileReport"
 import FileRequest from "./file/FileRequest";
+import Testpdf from "./file/Testpdf";
 
 const App = () => {
     return (
@@ -25,6 +26,7 @@ const App = () => {
                         < Route exact path="/filedownloads" element = {<FileDownloads />} />
                         < Route exact path="/filereport" element = {<FileReport />} />
                         < Route exact path="/filerequest" element = {<FileRequest />} />
+                        < Route exact path="/testpdf" element = {<Testpdf />} />
                     </Routes>
                 </div>
             </BrowserRouter>
